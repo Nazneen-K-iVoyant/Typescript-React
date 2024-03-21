@@ -74,6 +74,9 @@ import { UserContextProvider } from './Components/Context/UserContext'
 import User from './Components/Context/User'
 import MutableRef from './Components/Refs/MutableRef'
 import Counter from './Components/Class/Counter'
+import List from './Components/Generics/List'
+import RandomNumber from './Components/Resctrictions/RandomNumber'
+import Toast from './Components/TempelateLiterates/Toast'
 // import {User} from './Components/Context/User'
 
 function App() {
@@ -81,13 +84,36 @@ function App() {
     {/* <ThemeContextProvider>
       <Box/>
     </ThemeContextProvider> */}
-{/* 
+    {/* 
     <UserContextProvider>
       <User/>
     </UserContextProvider> */}
     {/* <MutableRef/> */}
-    <Counter message='The message count is'/>
+    {/* <Counter message='The message count is'/> */}
+    {/* <List items={['batman','suoerman','wondeer women']}  onClick={(items)=>console.log(items)}/> */}
+    {/* <List items={[1,2,3,4]} onClick={(items)=>console.log(items)} /> */}
+    {/* <List items={[
+      {
+        id:1,
+        first:'Bruce',
+        last:'Wayne'
+      },
+      {
+        id:2,
+        first:'Clark',
+        last:'Kent'
+      },
+      {
+        id:3,
+        first:'Princess',
+        last:'Diana'
+      }
+    ]}
+    onClick={(item)=>console.log(item)} /> */}
 
+    {/* <RandomNumber value={10} isPositive={true} /> */}
+    <Toast position='center'  />
+    {/* <Toast/> */}
   </div>
 }
 

@@ -6,16 +6,12 @@
 //     isLoggedIn:boolean
 //     Component:React.ComponentType<ProfileProps/>
 // }
-
-
 // function Private({isLoggedIn,Component}) {
 //     if(isLoggedIn){
 //         return <Component name='Naz' />
 //     } else {
 //         return <Login/>
 //     }
-
- 
 // }
 
 // export default Private
